@@ -1,0 +1,395 @@
+$date
+	Wed Feb 28 21:41:27 2018
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1ns
+$end
+
+$comment Csum: 1 0f748e8bba1eb4ef $end
+
+
+$scope module PipelineAdderTB $end
+$var reg 1 ! s1_9637 $end
+$var reg 1 " s2_9637 $end
+$var reg 8 # e1_9637 [7:0] $end
+$var reg 8 $ e2_9637 [7:0] $end
+$var wire 8 % e3_9637 [7:0] $end
+$var reg 23 & mantissa1_9637 [22:0] $end
+$var reg 23 ' mantissa2_9637 [22:0] $end
+$var wire 24 ( m3_9637 [23:0] $end
+$var reg 1 ) clk $end
+$var reg 1 * reset $end
+
+$scope module inst1 $end
+$var wire 1 ! s1_9637 $end
+$var wire 1 " s2_9637 $end
+$var reg 1 + s1_9637_reg $end
+$var reg 1 , s2_9637_reg $end
+$var reg 1 - s1_9637_reg_stage1_9637 $end
+$var reg 1 . s1_9637_reg_stage2_9637 $end
+$var reg 1 / s1_9637_reg_stage3_9637 $end
+$var reg 1 0 s1_9637_reg_stage4 $end
+$var reg 1 1 s2_9637_reg_stage1_9637 $end
+$var reg 1 2 s2_9637_reg_stage2_9637 $end
+$var reg 1 3 s2_9637_reg_stage3_9637 $end
+$var reg 1 4 s2_9637_reg_stage4 $end
+$var wire 8 # e1_9637 [7:0] $end
+$var wire 8 $ e2_9637 [7:0] $end
+$var reg 8 5 e1_9637_reg [7:0] $end
+$var reg 8 6 e2_9637_reg [7:0] $end
+$var reg 8 7 e_same [7:0] $end
+$var reg 8 8 e1_9637_stage1_9637 [7:0] $end
+$var reg 8 9 e1_9637_stage2_9637 [7:0] $end
+$var reg 8 : e1_9637_stage3_9637 [7:0] $end
+$var reg 8 ; e1_9637_stage4 [7:0] $end
+$var reg 8 < e2_9637_stage4 [7:0] $end
+$var reg 8 = e2_9637_stage1_9637 [7:0] $end
+$var reg 8 > e2_9637_stage2_9637 [7:0] $end
+$var reg 8 ? e2_9637_stage3_9637 [7:0] $end
+$var reg 8 @ e3_9637 [7:0] $end
+$var wire 23 & mantissa1_9637 [22:0] $end
+$var wire 23 ' mantissa2_9637 [22:0] $end
+$var reg 24 A m1 [23:0] $end
+$var reg 24 B m2 [23:0] $end
+$var reg 24 C m1_stage1_9637 [23:0] $end
+$var reg 24 D m2_stage1_9637 [23:0] $end
+$var reg 24 E m4 [23:0] $end
+$var reg 24 F m1_2comp [23:0] $end
+$var reg 24 G m2_2comp [23:0] $end
+$var reg 24 H m1_shift [23:0] $end
+$var reg 24 I m2_shift [23:0] $end
+$var reg 24 J m1_reg [23:0] $end
+$var reg 24 K m2_reg [23:0] $end
+$var reg 24 L m2_2comp_m2_shift [23:0] $end
+$var reg 24 M m1_2comp_m1 [23:0] $end
+$var reg 24 N m2_2comp_m2 [23:0] $end
+$var reg 24 O m1_2comp_m1_shift [23:0] $end
+$var reg 24 P m1_no_shift [23:0] $end
+$var reg 24 Q m2_no_shift [23:0] $end
+$var reg 24 R m1_stage3_9637 [23:0] $end
+$var reg 24 S m2_stage3_9637 [23:0] $end
+$var reg 24 T m2_shift_stage3_9637 [23:0] $end
+$var reg 24 U m1_less_stage3_9637 [23:0] $end
+$var reg 24 V m2_shift_less_stage3_9637 [23:0] $end
+$var reg 24 W m1_shift_less_stage3_9637 [23:0] $end
+$var reg 24 X m1_shiftmore_stage3_9637 [23:0] $end
+$var reg 24 Y m2_less_stage3_9637 [23:0] $end
+$var reg 24 Z m1_no_shift_stage3_9637 [23:0] $end
+$var reg 24 [ m2_no_shift_again [23:0] $end
+$var reg 24 \ m2_no_shift_stage3_9637 [23:0] $end
+$var reg 24 ] m1_no_shift_again [23:0] $end
+$var reg 24 ^ m1_2comp_m1_no_shift [23:0] $end
+$var reg 24 _ m2_2comp_m1_no_shift [23:0] $end
+$var reg 24 ` m1_second_stage [23:0] $end
+$var reg 24 a m2_second_stage [23:0] $end
+$var reg 24 b m3_9637 [23:0] $end
+$var wire 1 ) clk $end
+$var wire 1 * reset $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+1)
+1*
+0!
+x+
+0-
+x.
+x/
+x0
+0"
+x,
+01
+x2
+x3
+x4
+b10000101 #
+b00000001 5
+b10000101 8
+bxxxxxxxx 9
+bxxxxxxxx :
+bxxxxxxxx ;
+b10000110 $
+bxxxxxxxx 6
+b10000110 =
+bxxxxxxxx >
+bxxxxxxxx ?
+bxxxxxxxx <
+bxxxxxxxx @
+bxxxxxxxx 7
+bxxxxxxxxxxxxxxxxxxxxxxxx A
+bxxxxxxxxxxxxxxxxxxxxxxxx F
+bxxxxxxxxxxxxxxxxxxxxxxxx M
+bxxxxxxxxxxxxxxxxxxxxxxxx ^
+bxxxxxxxxxxxxxxxxxxxxxxxx O
+bxxxxxxxxxxxxxxxxxxxxxxxx U
+bxxxxxxxxxxxxxxxxxxxxxxxx P
+bxxxxxxxxxxxxxxxxxxxxxxxx ]
+bxxxxxxxxxxxxxxxxxxxxxxxx Z
+bxxxxxxxxxxxxxxxxxxxxxxxx J
+bxxxxxxxxxxxxxxxxxxxxxxxx `
+bxxxxxxxxxxxxxxxxxxxxxxxx H
+bxxxxxxxxxxxxxxxxxxxxxxxx W
+bxxxxxxxxxxxxxxxxxxxxxxxx X
+b110001000000000000000000 C
+bxxxxxxxxxxxxxxxxxxxxxxxx R
+bxxxxxxxxxxxxxxxxxxxxxxxx B
+bxxxxxxxxxxxxxxxxxxxxxxxx G
+bxxxxxxxxxxxxxxxxxxxxxxxx _
+bxxxxxxxxxxxxxxxxxxxxxxxx N
+bxxxxxxxxxxxxxxxxxxxxxxxx L
+bxxxxxxxxxxxxxxxxxxxxxxxx Y
+bxxxxxxxxxxxxxxxxxxxxxxxx Q
+bxxxxxxxxxxxxxxxxxxxxxxxx [
+bxxxxxxxxxxxxxxxxxxxxxxxx \
+bxxxxxxxxxxxxxxxxxxxxxxxx K
+bxxxxxxxxxxxxxxxxxxxxxxxx a
+bxxxxxxxxxxxxxxxxxxxxxxxx I
+bxxxxxxxxxxxxxxxxxxxxxxxx V
+bxxxxxxxxxxxxxxxxxxxxxxxx T
+b101010010000000000000000 D
+bxxxxxxxxxxxxxxxxxxxxxxxx S
+bxxxxxxxxxxxxxxxxxxxxxxxx b
+bxxxxxxxxxxxxxxxxxxxxxxxx E
+b10001000000000000000000 &
+b01010010000000000000000 '
+bxxxxxxxx %
+bxxxxxxxxxxxxxxxxxxxxxxxx (
+$end
+#10
+0)
+#20
+b10001100000000000000000 &
+1"
+b10000101 $
+b01100100000000000000000 '
+1)
+b011000100000000000000000 H
+b101010010000000000000000 a
+0.
+02
+b10000101 9
+b10000110 >
+b110001100000000000000000 A
+b101100100000000000000000 B
+b00000000 5
+11
+b10000101 =
+#30
+0)
+#40
+1!
+b10000100 #
+b01101000000000000000000 &
+0"
+b00111100000000000000000 '
+1)
+b101100100000000000000000 I
+b110001100000000000000000 `
+12
+b10000101 >
+b101010010000000000000000 V
+b011000100000000000000000 W
+0/
+03
+b10000101 :
+b10000110 ?
+b101101000000000000000000 C
+b100111100000000000000000 D
+b00000001 5
+1-
+01
+b10000100 8
+#50
+0)
+#60
+b10000111 #
+b00011011000000000000000 &
+1"
+b00001000000000000000000 '
+1)
+b010110100000000000000000 H
+b100111100000000000000000 a
+1.
+02
+b10000100 9
+b110001100000000000000000 R
+b010011100000000000000000 L
+13
+b10000101 ?
+b100011011000000000000000 A
+b100001000000000000000000 B
+b00000010 5
+11
+b10000111 8
+b000010110000000000000000 b
+b000010110000000000000000 (
+00
+04
+b10000101 ;
+b10000110 <
+#70
+0)
+#80
+0!
+b00000000 #
+b00000000000000000000000 &
+0"
+b00000000 $
+b00000000000000000000000 '
+1)
+b001011010000000000000000 H
+12
+b10000111 9
+1/
+03
+b10000100 :
+b100000000000000000000000 A
+b100000000000000000000000 B
+b00000000 5
+0-
+01
+b00000000 8
+b00000000 =
+b110110111000000000000000 b
+b110110111000000000000000 (
+14
+b10000101 <
+#90
+0)
+#100
+1"
+b10000101 $
+b11010100000000000000000 '
+1)
+b100000000000000000000000 I
+b100000000000000000000000 `
+0.
+02
+b00000000 9
+b00000000 >
+b101100100000000000000000 S
+13
+b10000111 :
+b100000000000000000000000 C
+b111010100000000000000000 D
+b10000101 5
+11
+b10000101 =
+b110011100000000000000000 b
+b110011100000000000000000 (
+10
+04
+b10000100 ;
+#110
+0)
+#120
+1!
+b10000101 #
+b10111000100000000000000 &
+0"
+b10001111100000000000000 '
+1)
+b000000000000000000000000 H
+b111010100000000000000000 a
+12
+b10000101 >
+b100111100000000000000000 V
+b001011010000000000000000 W
+0/
+03
+b00000000 :
+b00000000 ?
+b110111000100000000000000 A
+b110001111100000000000000 B
+b00000000 5
+1-
+01
+b10000101 8
+14
+b10000111 ;
+#130
+0)
+#140
+0!
+b10111011100000000000000 &
+b10001100100000000000000 '
+1)
+b110001111100000000000000 I
+b110111000100000000000000 `
+1.
+02
+b10000101 9
+b111010100000000000000000 V
+b000000000000000000000000 O
+13
+b10000101 ?
+b110111011100000000000000 A
+b110001100100000000000000 B
+0-
+b001010100100000000000000 b
+b001010100100000000000000 (
+00
+04
+b00000000 ;
+b00000000 <
+#150
+0)
+#160
+1)
+b110001100100000000000000 I
+b110111011100000000000000 `
+0.
+b110111000100000000000000 R
+b001110000100000000000000 L
+1/
+03
+b10000101 :
+b001010111100000000000000 b
+b001010111100000000000000 (
+14
+b10000101 <
+#170
+0)
+#180
+1)
+b110111011100000000000000 R
+b110001100100000000000000 S
+0/
+b000101100000000000000000 b
+b000101100000000000000000 (
+10
+04
+b10000101 ;
+#190
+0)
+#200
+1)
+00
+#210
+0)
+#220
+1)
+#230
+0)
+#240
+1)
+#250
+0)
+#260
+1)
+#270
+0)
+#280
+1)
+#290
+0)
